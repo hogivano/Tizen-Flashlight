@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/Flashlight" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="62y8VNnyVz.Flashlight" package="62y8VNnyVz" required_version="2.4"/>
+    <tizen:setting screen-orientation="portrait" context-menu="enable" background-support="enable" />
+    <author>TryDev</author>
+    <content src="index.html"/>
+    <description>Custom camera flash.</description>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.png"/>
+    <name>Flashlight</name>
+    <tizen:privilege name="http://tizen.org/privilege/led"/>
+    <tizen:privilege name="http://tizen.org/privilege/system"/>
+    <tizen:profile name="mobile"/>
+</widget>
